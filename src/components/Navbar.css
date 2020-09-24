@@ -1,0 +1,25 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #1d1d1f;
+}
+
+.navbar__logo {
+	color: white;
+}
+
+.navbar__logo > img {
+	width: 74px;
+}
+
+.navbar__icons > ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.navbar__icons > ul > li {
+	padding: 10px;
+	color: white;
+}
