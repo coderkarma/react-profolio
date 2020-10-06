@@ -5,11 +5,19 @@
 	width: 100%;
 }
 
-.home__imageColumn {
-	border: 1px solid green;
-	width: 400px;
-	height: 300px;
-}
 .home__column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+.home__imageColumn > img {
+	width: 100%;
+}
+
+.home__introColumn > h1 {
 	border: 1px solid red;
+
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
 }
