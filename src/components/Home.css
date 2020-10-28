@@ -1,13 +1,7 @@
-.home__row {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
 .home__imageColumn > img {
 	width: 100%;
-	height: 85vh;
+	height: 70vh;
+	padding: 2rem;
 }
 
 .home__introColumn {
