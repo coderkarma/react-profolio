@@ -9,7 +9,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex: 1;
 }
 .home__introColumn > h1 {
 	font-family: 'Open Sans', sans-serif;
